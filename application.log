@@ -66,3 +66,12 @@
 {"time":"2024-08-13T13:41:17.788092686+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
 {"time":"2024-08-13T13:41:17.788079309+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
 {"time":"2024-08-13T13:41:17.788180391+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-13T16:19:29.99108393+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\" password:\"string\""}
+{"time":"2024-08-13T16:34:08.965788377+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\" password:\"string\""}
+{"time":"2024-08-13T16:47:15.58540874+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\" password:\"string\""}
+{"time":"2024-08-13T16:54:51.993220722+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-13T16:54:51.993369292+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
+{"time":"2024-08-13T16:54:51.993410068+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
+{"time":"2024-08-13T16:54:51.993431464+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"register_user"}
+{"time":"2024-08-13T16:54:51.993456322+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-13T16:54:51.993622549+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"delete_user"}
