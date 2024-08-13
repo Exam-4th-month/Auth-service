@@ -32,7 +32,7 @@ func (a *API) RUN(config *config.Config, service *service.Service) error {
 
 	pb.RegisterAuthServiceServer(serverRegisterer, service)
 
-	log.Println("server has started running on port", config.Server.Port)
+	log.Println("Server has started running on port", config.Server.Port)
 
 	return serverRegisterer.Serve(listener)
 }

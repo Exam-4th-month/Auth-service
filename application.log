@@ -4,3 +4,65 @@
 {"time":"2024-08-11T01:49:50.562840128+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
 {"time":"2024-08-11T01:49:50.562931608+05:00","level":"INFO","msg":"All consumers have stopped"}
 {"time":"2024-08-11T01:49:50.563043091+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
+{"time":"2024-08-12T14:24:16.999893276+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-12T14:24:17.00009918+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
+{"time":"2024-08-12T14:24:17.000133208+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"register_user"}
+{"time":"2024-08-12T14:24:17.000151325+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
+{"time":"2024-08-12T14:24:17.000117353+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"delete_user"}
+{"time":"2024-08-12T14:24:17.000170664+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-12T14:26:25.701573357+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-12T14:26:25.701655785+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"register_user"}
+{"time":"2024-08-12T14:26:25.701658788+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"delete_user"}
+{"time":"2024-08-12T14:26:25.701653663+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
+{"time":"2024-08-12T14:26:25.70168249+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-12T14:26:25.701726719+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
+{"time":"2024-08-12T14:26:53.249999129+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T14:32:37.277823321+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-12T14:32:37.27787027+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
+{"time":"2024-08-12T14:32:37.277878625+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"delete_user"}
+{"time":"2024-08-12T14:32:37.277870378+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
+{"time":"2024-08-12T14:32:37.277892228+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-12T14:32:37.277887958+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"register_user"}
+{"time":"2024-08-12T14:34:58.062540606+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T14:35:41.866136334+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-12T14:35:41.86618172+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
+{"time":"2024-08-12T14:35:41.866197614+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"register_user"}
+{"time":"2024-08-12T14:35:41.866183396+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"delete_user"}
+{"time":"2024-08-12T14:35:41.866231854+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-12T14:35:41.866203184+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
+{"time":"2024-08-12T14:38:18.438946776+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T14:44:05.288115512+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T14:46:54.938238647+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T14:48:49.332794377+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T14:50:47.431008236+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-12T14:50:47.431119264+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"register_user"}
+{"time":"2024-08-12T14:50:47.431127868+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
+{"time":"2024-08-12T14:50:47.431156439+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"delete_user"}
+{"time":"2024-08-12T14:50:47.431184278+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
+{"time":"2024-08-12T14:50:47.431193248+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-12T14:54:30.860131092+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T14:56:32.406381654+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T15:28:30.910177826+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T15:37:36.19700617+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T15:51:02.715618988+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T16:26:41.42866714+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-12T16:26:41.428744778+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
+{"time":"2024-08-12T16:26:41.428772492+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
+{"time":"2024-08-12T16:26:41.428785661+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"delete_user"}
+{"time":"2024-08-12T16:26:41.42879727+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-12T16:26:41.428740769+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"register_user"}
+{"time":"2024-08-12T16:56:44.019883017+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\"  password:\"string\""}
+{"time":"2024-08-12T17:11:59.534721369+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-12T17:11:59.534852053+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"register_user"}
+{"time":"2024-08-12T17:11:59.53488622+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
+{"time":"2024-08-12T17:11:59.534903675+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
+{"time":"2024-08-12T17:11:59.534922826+05:00","level":"INFO","msg":"All consumers have stopped"}
+{"time":"2024-08-12T17:11:59.535027221+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"delete_user"}
+{"time":"2024-08-13T13:20:43.543477678+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\" password:\"string\""}
+{"time":"2024-08-13T13:22:28.575178385+05:00","level":"INFO","msg":"Login function was invoked","request":"email:\"string\" password:\"string\""}
+{"time":"2024-08-13T13:41:17.787883824+05:00","level":"INFO","msg":"Shutting down, waiting for consumers to finish"}
+{"time":"2024-08-13T13:41:17.788060013+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"delete_user"}
+{"time":"2024-08-13T13:41:17.788097516+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"register_user"}
+{"time":"2024-08-13T13:41:17.788092686+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"set_admin"}
+{"time":"2024-08-13T13:41:17.788079309+05:00","level":"INFO","msg":"Context done, stopping consumer","consumer":"update_user"}
+{"time":"2024-08-13T13:41:17.788180391+05:00","level":"INFO","msg":"All consumers have stopped"}

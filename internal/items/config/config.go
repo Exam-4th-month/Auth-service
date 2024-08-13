@@ -8,21 +8,15 @@ import (
 
 type (
 	Config struct {
-		Server        ServerConfig
-		Database      DatabaseConfig
-		Redis         RedisConfig
-		JWT           JWTConfig
-		RabbitMQ      RabbitMQConfig
-		TableName     string
-		BookId        string
-		Title         string
-		Author        string
-		PublisherYear string
+		Server   ServerConfig
+		Database DatabaseConfig
+		Redis    RedisConfig
+		JWT      JWTConfig
+		RabbitMQ RabbitMQConfig
 	}
 	JWTConfig struct {
 		SecretKey string
 	}
-
 	ServerConfig struct {
 		Port string
 	}
@@ -55,11 +49,6 @@ func (c *Config) Load() error {
 	c.Database.DBName = os.Getenv("DB_NAME")
 	c.Redis.Host = os.Getenv("REDIS_HOST")
 	c.Redis.Port = os.Getenv("REDIS_PORT")
-	c.TableName = os.Getenv("TABLE_NAME")
-	c.BookId = os.Getenv("BOOK_ID")
-	c.Title = os.Getenv("TITLE")
-	c.Author = os.Getenv("AUTHOR")
-	c.PublisherYear = os.Getenv("PUB_YEAR")
 	c.JWT.SecretKey = os.Getenv("JWT_SECRET_KEY")
 	c.RabbitMQ.RabbitMQ = os.Getenv("RABBITMQ_URI")
 
