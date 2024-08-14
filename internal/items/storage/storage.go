@@ -9,7 +9,6 @@ import (
 	pb "auth-service/genproto/auth"
 	"auth-service/internal/items/config"
 	jwttokens "auth-service/internal/items/jwt"
-	"auth-service/internal/items/redisservice"
 	"auth-service/internal/items/repository"
 
 	sq "github.com/Masterminds/squirrel"
@@ -18,16 +17,14 @@ import (
 )
 
 type Storage struct {
-	redis        *redisservice.RedisService
 	postgres     *sql.DB
 	queryBuilder sq.StatementBuilderType
 	cfg          *config.Config
 	logger       *slog.Logger
 }
 
-func New(redis *redisservice.RedisService, postgres *sql.DB, queryBuilder sq.StatementBuilderType, cfg *config.Config, logger *slog.Logger) repository.IAuthRepo {
+func New(postgres *sql.DB, queryBuilder sq.StatementBuilderType, cfg *config.Config, logger *slog.Logger) repository.IAuthRepo {
 	return &Storage{
-		redis:        redis,
 		postgres:     postgres,
 		queryBuilder: queryBuilder,
 		cfg:          cfg,

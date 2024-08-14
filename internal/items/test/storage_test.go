@@ -3,10 +3,8 @@ package test
 import (
 	pb "auth-service/genproto/auth"
 	"auth-service/internal/items/config"
-	"auth-service/internal/items/redisservice"
 	"auth-service/internal/items/repository"
 	"auth-service/internal/items/storage"
-	redisCl "auth-service/internal/pkg/redis"
 	"database/sql"
 
 	"context"
@@ -38,15 +36,9 @@ func setupStorage() (repository.IAuthRepo, *sql.DB) {
 		logger.Error("error while connecting postgres:", slog.String("err:", err.Error()))
 	}
 
-	redis, err := redisCl.NewRedisDB(config)
-	if err != nil {
-		logger.Error("error while connecting redis:", slog.String("err:", err.Error()))
-	}
-
 	sqrl := sq.StatementBuilder.PlaceholderFormat(sq.Dollar)
 
 	return storage.New(
-		redisservice.New(redis, logger),
 		db,
 		sqrl,
 		config,

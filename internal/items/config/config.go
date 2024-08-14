@@ -10,9 +10,7 @@ type (
 	Config struct {
 		Server   ServerConfig
 		Database DatabaseConfig
-		Redis    RedisConfig
 		JWT      JWTConfig
-		RabbitMQ RabbitMQConfig
 	}
 	JWTConfig struct {
 		SecretKey string
@@ -27,13 +25,6 @@ type (
 		Password string
 		DBName   string
 	}
-	RedisConfig struct {
-		Host string
-		Port string
-	}
-	RabbitMQConfig struct {
-		RabbitMQ string
-	}
 )
 
 func (c *Config) Load() error {
@@ -47,10 +38,7 @@ func (c *Config) Load() error {
 	c.Database.User = os.Getenv("DB_USER")
 	c.Database.Password = os.Getenv("DB_PASSWORD")
 	c.Database.DBName = os.Getenv("DB_NAME")
-	c.Redis.Host = os.Getenv("REDIS_HOST")
-	c.Redis.Port = os.Getenv("REDIS_PORT")
 	c.JWT.SecretKey = os.Getenv("JWT_SECRET_KEY")
-	c.RabbitMQ.RabbitMQ = os.Getenv("RABBITMQ_URI")
 
 	return nil
 }
